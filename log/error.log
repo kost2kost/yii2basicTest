@@ -1,0 +1,340 @@
+2020/12/25 10:22:51 [error] 9341#9341: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/12/25 10:23:00 [error] 9341#9341: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/12/25 10:38:10 [error] 10562#10562: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/12/25 10:38:17 [error] 10562#10562: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /dist/css/bootstrap.min.css HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:38:17 [error] 10562#10562: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /assets/css/ie10-viewport-bug-workaround.css HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:38:17 [error] 10562#10562: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /blog.css HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:38:17 [error] 10562#10562: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /assets/js/ie-emulation-modes-warning.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:38:17 [error] 10562#10562: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /dist/js/bootstrap.min.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:38:17 [error] 10562#10562: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /assets/js/ie10-viewport-bug-workaround.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:38:17 [error] 10562#10562: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /dist/js/bootstrap.min.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:38:17 [error] 10562#10562: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /assets/js/ie10-viewport-bug-workaround.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:04 [error] 10562#10562: *15 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /dist/css/bootstrap.min.css HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:04 [error] 10562#10562: *16 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /assets/css/ie10-viewport-bug-workaround.css HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:04 [error] 10562#10562: *18 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /blog.css HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:04 [error] 10562#10562: *19 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /assets/js/ie-emulation-modes-warning.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:04 [error] 10562#10562: *20 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /dist/js/bootstrap.min.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:04 [error] 10562#10562: *21 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /assets/js/ie10-viewport-bug-workaround.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:04 [error] 10562#10562: *21 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /dist/js/bootstrap.min.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:04 [error] 10562#10562: *21 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /assets/js/ie10-viewport-bug-workaround.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:17 [error] 12817#12817: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /dist/css/bootstrap.min.css HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:17 [error] 12817#12817: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /assets/css/ie10-viewport-bug-workaround.css HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:17 [error] 12817#12817: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /blog.css HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:17 [error] 12817#12817: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /assets/js/ie-emulation-modes-warning.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:17 [error] 12817#12817: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /dist/js/bootstrap.min.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:17 [error] 12817#12817: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /assets/js/ie10-viewport-bug-workaround.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:19 [error] 12817#12817: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /dist/css/bootstrap.min.css HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:19 [error] 12817#12817: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /assets/css/ie10-viewport-bug-workaround.css HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:19 [error] 12817#12817: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /blog.css HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:19 [error] 12817#12817: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /assets/js/ie-emulation-modes-warning.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:19 [error] 12817#12817: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /dist/js/bootstrap.min.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:19 [error] 12817#12817: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /assets/js/ie10-viewport-bug-workaround.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:19 [error] 12817#12817: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /dist/js/bootstrap.min.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:19 [error] 12817#12817: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /assets/js/ie10-viewport-bug-workaround.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:20 [error] 12817#12817: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /dist/css/bootstrap.min.css HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:20 [error] 12817#12817: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /assets/css/ie10-viewport-bug-workaround.css HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:20 [error] 12817#12817: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /blog.css HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:20 [error] 12817#12817: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /assets/js/ie-emulation-modes-warning.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:20 [error] 12817#12817: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /dist/js/bootstrap.min.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:20 [error] 12817#12817: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /assets/js/ie10-viewport-bug-workaround.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:20 [error] 12817#12817: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /dist/js/bootstrap.min.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:20 [error] 12817#12817: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /assets/js/ie10-viewport-bug-workaround.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/"
+2020/12/25 10:47:49 [error] 12843#12843: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/12/25 10:47:50 [error] 12843#12843: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/12/25 10:47:51 [error] 12843#12843: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/12/25 10:47:52 [error] 12843#12843: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/12/25 10:47:54 [error] 12843#12843: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/12/25 10:48:05 [error] 12843#12843: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2020/12/25 10:53:48 [crit] 13101#13101: *1 connect() to unix:/var/run/php7.2-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php7.2-fpm.sock:", host: "localhost"
+2020/12/25 10:53:49 [crit] 13101#13101: *1 connect() to unix:/var/run/php7.2-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php7.2-fpm.sock:", host: "localhost"
+2020/12/25 10:53:53 [crit] 13101#13101: *1 connect() to unix:/var/run/php7.2-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php7.2-fpm.sock:", host: "localhost"
+2020/12/25 10:53:58 [crit] 13101#13101: *1 connect() to unix:/var/run/php7.2-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php7.2-fpm.sock:", host: "localhost"
+2020/12/25 13:26:56 [error] 19582#19582: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /testproject/web/index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2020/12/25 19:37:35 [error] 12258#12258: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "127.0.0.1"
+2020/12/25 19:37:43 [error] 12258#12258: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /_intellij_phpdebug_validator.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "127.0.0.1"
+2020/12/26 18:08:49 [error] 16566#16566: *3 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php?r=kkblog%2Findex HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock", host: "localhost", referrer: "http://localhost/index.php?r=site%2Findex"
+2020/12/26 18:09:27 [error] 16566#16566: *8 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php?r=site%2Fabout HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock", host: "localhost", referrer: "http://localhost/index.php?r=site%2Findex"
+2020/12/26 18:14:11 [error] 17370#17370: *4 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock", host: "localhost"
+2020/12/26 20:14:42 [error] 28805#28805: *11 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant SERVER_NAME - assumed 'SERVER_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/testproject/web/test.php on line 1
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/test.php:0" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2020/12/26 20:18:18 [error] 29110#29110: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant SERVER_NAME - assumed 'SERVER_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/testproject/web/test.php on line 1
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/test.php:0" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2020/12/26 20:46:05 [error] 30175#30175: *29 FastCGI sent in stderr: "PHP message: PHP Warning:  Use of undefined constant SERVER_NAME - assumed 'SERVER_NAME' (this will throw an Error in a future version of PHP) in /var/www/html/testproject/web/test.php on line 1
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/test.php:0" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2020/12/26 20:46:54 [error] 30175#30175: *29 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use [] for reading in /var/www/html/testproject/web/test.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2020/12/26 21:24:05 [error] 6649#6649: *6 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock", host: "localhost"
+2020/12/26 21:30:35 [error] 6649#6649: *12 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in /var/www/html/testproject/web/test.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2020/12/26 21:30:37 [error] 6649#6649: *12 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '?>', expecting ',' or ')' in /var/www/html/testproject/web/test.php on line 2" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2020/12/26 21:32:15 [error] 6649#6649: *12 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: PHP_IDE_CONFIG in /var/www/html/testproject/web/test.php on line 1
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/test.php:0" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2020/12/26 21:32:33 [error] 6649#6649: *12 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: PHP_IDE_CONFIG in /var/www/html/testproject/web/test.php on line 1
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/test.php:0" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2020/12/26 21:32:34 [error] 6649#6649: *12 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined index: PHP_IDE_CONFIG in /var/www/html/testproject/web/test.php on line 1
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/test.php:0" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2020/12/26 21:32:55 [error] 6649#6649: *12 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use [] for reading in /var/www/html/testproject/web/test.php on line 1" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2020/12/26 21:53:36 [error] 9583#9583: *9 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock", host: "localhost"
+2020/12/27 12:32:48 [error] 1407#1407: *147 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php?r=country%2Findex HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock", host: "localhost", referrer: "http://localhost/index.php"
+2020/12/28 13:54:51 [error] 1344#1344: *94 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected '?', expecting end of file in /var/www/html/testproject/views/kkblog/kkproc.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\KkblogController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\KkblogController->actionKkproc() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\KkblogController->render() /var/www/html/testproject/controllers/KkblogController.php:83
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP ParseError:  syntax error, unexpected '?', expecting end of file in /var/www/html/testproject/views/kkblog/kkproc.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/test
+2020/12/28 14:22:32 [error] 1344#1344: *134 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected '$mysqli' (T_VARIABLE), expecting ',' or ';' in /var/www/html/testproject/views/kkblog/kkproc.php on line 41
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\KkblogController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\KkblogController->actionKkproc() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\KkblogController->render() /var/www/html/testproject/controllers/KkblogController.php:83
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP ParseError:  syntax error, unexpected '$mysqli' (T_VARIABLE), expecting ',' or ';' in /var/www/html/testproject/views/kkblog/kkproc.php on line 41
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\
+2020/12/29 18:33:20 [error] 9500#9500: *2 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /site/about HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock", host: "localhost", referrer: "http://localhost/index.php"
+2020/12/29 18:50:08 [error] 13742#13742: *5 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /country/index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock", host: "localhost", referrer: "http://localhost/site/about"
+2021/01/06 15:06:27 [error] 11966#11966: *212 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/testproject/web/../config/webkost.php): failed to open stream: No such file or directory in /var/www/html/testproject/web/kost.php on line 10
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/html/testproject/web/../config/webkost.php' (include_path='.:/usr/share/php') in /var/www/html/testproject/web/kost.php on line 10
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 15:33:57 [error] 11966#11966: *278 FastCGI sent in stderr: "PHP message: PHP Warning:  require(/var/www/html/testproject/web/../config/kostweb1.php): failed to open stream: No such file or directory in /var/www/html/testproject/web/kost.php on line 10
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Fatal error:  require(): Failed opening required '/var/www/html/testproject/web/../config/kostweb1.php' (include_path='.:/usr/share/php') in /var/www/html/testproject/web/kost.php on line 10
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:38:33 [error] 11966#11966: *516 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php/kkblog/index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:38:38 [error] 11966#11966: *516 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:38:41 [error] 11966#11966: *516 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:38:42 [error] 11966#11966: *516 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:39:03 [error] 11966#11966: *516 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:39:06 [error] 11966#11966: *516 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:39:22 [error] 11966#11966: *516 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:39:23 [error] 11966#11966: *516 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:39:24 [error] 11966#11966: *516 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:39:25 [error] 11966#11966: *516 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:39:41 [error] 11966#11966: *516 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:39:45 [error] 11966#11966: *516 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:39:46 [error] 11966#11966: *516 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:40:18 [error] 11966#11966: *516 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:41:00 [error] 11966#11966: *516 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:41:01 [error] 11966#11966: *516 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 60" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:42:49 [error] 11966#11966: *542 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:43:41 [error] 11966#11966: *542 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:43:42 [error] 11966#11966: *542 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:43:43 [error] 11966#11966: *542 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:43:43 [error] 11966#11966: *542 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:44:05 [error] 11966#11966: *542 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:44:07 [error] 11966#11966: *542 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:44:12 [error] 11966#11966: *542 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:44:13 [error] 11966#11966: *542 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:44:26 [error] 11966#11966: *561 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 192.168.1.43, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "testblog.loc"
+2021/01/06 21:44:36 [error] 11966#11966: *542 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:45:13 [error] 11966#11966: *542 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:45:13 [error] 11966#11966: *542 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:45:14 [error] 11966#11966: *542 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:45:14 [error] 11966#11966: *542 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:45:15 [error] 11966#11966: *542 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:45:54 [error] 11966#11966: *542 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:45:55 [error] 11966#11966: *542 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:45:56 [error] 11966#11966: *542 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:45:57 [error] 11966#11966: *542 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:53:21 [error] 11966#11966: *575 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:54:15 [error] 11966#11966: *575 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:54:16 [error] 11966#11966: *575 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:54:17 [error] 11966#11966: *575 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:54:17 [error] 11966#11966: *575 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:54:32 [error] 11966#11966: *575 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:54:33 [error] 11966#11966: *575 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:54:33 [error] 11966#11966: *575 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:54:58 [error] 11966#11966: *575 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:54:58 [error] 11966#11966: *575 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:55:48 [error] 11966#11966: *575 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:55:49 [error] 11966#11966: *575 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/06 21:55:51 [error] 11966#11966: *575 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/kost.php:0
+PHP message: PHP Parse error:  syntax error, unexpected ';', expecting ']' in /var/www/html/testproject/config/kostweb.php on line 59" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost"
+2021/01/07 12:45:41 [error] 1493#1493: *441 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/testproject/vendor/yiisoft/yii2/web/ErrorHandler.php(109): yii\base\Module->runAction('site/error')
+#1 /var/www/html/testproject/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "site/index". in /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('site/index', Array)
+#1 /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php/site/index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost", referrer: "http://localhost/kost.php/site"
