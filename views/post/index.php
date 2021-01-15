@@ -45,8 +45,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'category.title',
 
             ['class' => 'yii\grid\ActionColumn'],
-            [
-            'class' => 'yii\grid\ActionColumn'::className(),
+            ['class' => 'yii\grid\ActionColumn',
 
             'template' => '{details} {delete} {shopping}' ,
 
