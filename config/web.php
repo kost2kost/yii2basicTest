@@ -47,12 +47,12 @@ $config = [
 
         'urlManager' => [
             'enablePrettyUrl' => true,
-            'showScriptName' => false,
+//14.01.21            'showScriptName' => false,
             'enableStrictParsing' => false,
             'rules' => [
-                    'site' => '/views/kkblog',            
+                       'site' => '/views/kkblog',            
 //                    'site/index' => '/views/kkblog/index',
-                    'defaultRoute' => 'web/index',
+                       'defaultRoute' => 'web/index',
 //                    'defaultRoute' => 'kkblog/index',
             ],
         ],

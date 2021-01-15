@@ -338,3 +338,499 @@ yii\base\InvalidRouteException: Unable to resolve the request "site/index". in /
 Stack trace:
 #0 /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('site/index', Array)
 #1 /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object" while reading upstream, client: 127.0.0.1, server: localhost, request: "GET /kost.php/site/index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost", referrer: "http://localhost/kost.php/site"
+2021/01/09 10:50:37 [error] 1582#1582: *34 FastCGI sent in stderr: "PHP message: PHP Error:  Cannot use object of type app\models\CategoryQuery as array in /var/www/html/testproject/views/post/update.php on line 10
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PostController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PostController->actionUpdate() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\PostController->render() /var/www/html/testproject/controllers/PostController.php:94
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP  13. require() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:348
+PHP message: PHP Error:  Cannot use object of type app\models\CategoryQuery as array in /var/www/html/testproject/views/post/update.php on line 10
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testp
+2021/01/09 11:00:03 [error] 1582#1582: *44 FastCGI sent in stderr: "PHP message: PHP Warning:  Unterminated comment starting line 12 in /var/www/html/testproject/views/post/update.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PostController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PostController->actionUpdate() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\PostController->render() /var/www/html/testproject/controllers/PostController.php:94
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP ParseError:  syntax error, unexpected end of file, expecting ']' in /var/www/html/testproject/views/post/update.php on line 27
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP 
+2021/01/09 11:00:03 [error] 1582#1582: *44 FastCGI sent in stderr: "l/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PostController->actionUpdate() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\PostController->render() /var/www/html/testproject/controllers/PostController.php:94
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /post/update?id=1 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost", referrer: "http://localhost/post/index"
+2021/01/11 15:07:20 [error] 1446#1446: *40 FastCGI sent in stderr: "PHP message: PHP Error:  Class 'ActionColumn' not found in /var/www/html/testproject/views/post/index.php on line 37
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PostController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PostController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\PostController->render() /var/www/html/testproject/controllers/PostController.php:43
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP  13. require() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:348
+PHP message: PHP Error:  Class 'ActionColumn' not found in /var/www/html/testproject/views/post/index.php on line 37
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Applicat
+2021/01/11 18:40:24 [error] 1446#1446: *98 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ')', expecting ']' in /var/www/html/testproject/views/post/index.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PostController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PostController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\PostController->render() /var/www/html/testproject/controllers/PostController.php:43
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP ParseError:  syntax error, unexpected ')', expecting ']' in /var/www/html/testproject/views/post/index.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP me
+2021/01/11 18:40:30 [error] 1446#1446: *99 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ')', expecting ']' in /var/www/html/testproject/views/post/index.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PostController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PostController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\PostController->render() /var/www/html/testproject/controllers/PostController.php:43
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP ParseError:  syntax error, unexpected ')', expecting ']' in /var/www/html/testproject/views/post/index.php on line 60
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP me
+2021/01/11 18:50:34 [error] 1446#1446: *121 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected ']' in /var/www/html/testproject/views/post/index.php on line 62
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PostController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PostController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\PostController->render() /var/www/html/testproject/controllers/PostController.php:43
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP ParseError:  syntax error, unexpected ']' in /var/www/html/testproject/views/post/index.php on line 62
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Appli
+2021/01/11 18:52:30 [error] 1446#1446: *129 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /var/www/html/testproject/views/post/index.php on line 51
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PostController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PostController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\PostController->render() /var/www/html/testproject/controllers/PostController.php:43
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP ParseError:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /var/www/html/testproject/views/post/index.php on line 51
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/htm
+2021/01/11 18:52:47 [error] 1446#1446: *129 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /var/www/html/testproject/views/post/index.php on line 51
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PostController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PostController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\PostController->render() /var/www/html/testproject/controllers/PostController.php:43
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP ParseError:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /var/www/html/testproject/views/post/index.php on line 51
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/htm
+2021/01/11 18:53:47 [error] 1446#1446: *129 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected '*', expecting ']' in /var/www/html/testproject/views/post/index.php on line 37
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PostController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PostController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\PostController->render() /var/www/html/testproject/controllers/PostController.php:43
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP ParseError:  syntax error, unexpected '*', expecting ']' in /var/www/html/testproject/views/post/index.php on line 37
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP m
+2021/01/11 18:58:39 [error] 1446#1446: *152 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected '=', expecting ']' in /var/www/html/testproject/views/post/index.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PostController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PostController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\PostController->render() /var/www/html/testproject/controllers/PostController.php:43
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP ParseError:  syntax error, unexpected '=', expecting ']' in /var/www/html/testproject/views/post/index.php on line 49
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP m
+2021/01/14 10:11:42 [error] 13859#13859: *82 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /post/update?id=2 HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock", host: "localhost", referrer: "http://localhost/post/update?id=2"
+2021/01/14 13:30:10 [error] 11495#11495: *51 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /var/www/html/testproject/views/layouts/main.php on line 94
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\SiteController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\SiteController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\SiteController->render() /var/www/html/testproject/controllers/SiteController.php:64
+PHP message: PHP  10. app\controllers\SiteController->renderContent() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:411
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:425
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP ParseError:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /var/www/html/testproject/views/layouts/main.php on line 94
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii
+2021/01/14 13:30:53 [error] 11495#11495: *51 FastCGI sent in stderr: "PHP message: PHP ParseError:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /var/www/html/testproject/views/layouts/main.php on line 94
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\SiteController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\SiteController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\SiteController->render() /var/www/html/testproject/controllers/SiteController.php:64
+PHP message: PHP  10. app\controllers\SiteController->renderContent() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:411
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:425
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP ParseError:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /var/www/html/testproject/views/layouts/main.php on line 94
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii
+2021/01/14 15:43:24 [error] 11495#11495: *236 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php/posttag/index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock", host: "localhost", referrer: "http://localhost/index.php"
+2021/01/14 15:55:09 [error] 11495#11495: *267 FastCGI sent in stderr: "PHP message: PHP Error:  Class 'app\models\PostTagSearch' not found in /var/www/html/testproject/controllers/PosttagController.php on line 38
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PosttagController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PosttagController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php/posttag/index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost", referrer: "http://localhost/index.php/tag/index"
+2021/01/14 15:57:07 [error] 11495#11495: *275 FastCGI sent in stderr: "PHP message: PHP Error:  Class 'app\models\PostTagSearch' not found in /var/www/html/testproject/controllers/PosttagController.php on line 38
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PosttagController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PosttagController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php/posttag/index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost", referrer: "http://localhost/index.php/tag/index"
+2021/01/14 15:57:13 [error] 11495#11495: *276 FastCGI sent in stderr: "PHP message: PHP Error:  Class 'app\models\PostTagSearch' not found in /var/www/html/testproject/controllers/PosttagController.php on line 38
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PosttagController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PosttagController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php/posttag/index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost", referrer: "http://localhost/index.php/tag/index"
+2021/01/14 15:57:37 [error] 11495#11495: *275 FastCGI sent in stderr: "PHP message: PHP Error:  Class 'app\models\PostTagSearch' not found in /var/www/html/testproject/controllers/PosttagController.php on line 38
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PosttagController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PosttagController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php/posttag/index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost", referrer: "http://localhost/index.php"
+2021/01/14 15:58:21 [error] 11495#11495: *275 FastCGI sent in stderr: "PHP message: PHP Error:  Class 'app\models\PostTagQuery' not found in /var/www/html/testproject/models/PostTag.php on line 77
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PosttagController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PosttagController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\models\PosttagSearch->search() /var/www/html/testproject/controllers/PosttagController.php:39
+PHP message: PHP  10. app\models\Posttag::find() /var/www/html/testproject/models/PosttagSearch.php:42" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php/posttag/index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost", referrer: "http://localhost/index.php"
+2021/01/14 15:59:30 [error] 11495#11495: *290 FastCGI sent in stderr: "PHP message: PHP Error:  Class 'app\models\PostTagQuery' not found in /var/www/html/testproject/models/PostTag.php on line 77
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PosttagController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PosttagController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\models\PosttagSearch->search() /var/www/html/testproject/controllers/PosttagController.php:39
+PHP message: PHP  10. app\models\Posttag::find() /var/www/html/testproject/models/PosttagSearch.php:42" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php/posttag/index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost", referrer: "http://localhost/index.php"
+2021/01/14 16:00:58 [error] 11495#11495: *293 FastCGI sent in stderr: "PHP message: PHP Error:  Class 'app\models\PostTagQuery' not found in /var/www/html/testproject/models/PostTag.php on line 77
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PosttagController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PosttagController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\models\PosttagSearch->search() /var/www/html/testproject/controllers/PosttagController.php:39
+PHP message: PHP  10. app\models\Posttag::find() /var/www/html/testproject/models/PosttagSearch.php:42" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php/posttag/index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost", referrer: "http://localhost/index.php"
+2021/01/14 16:01:49 [error] 11495#11495: *293 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'app\models\PostTag' not found in /var/www/html/testproject/models/PosttagSearch.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PosttagController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PosttagController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. spl_autoload_call() /var/www/html/testproject/controllers/PosttagController.php:38
+PHP message: PHP  10. yii\BaseYii::autoload() /var/www/html/testproject/controllers/PosttagController.php:38
+PHP message: PHP  11. include() /var/www/html/testproject/vendor/yiisoft/yii2/BaseYii.php:293" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php/posttag/index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost", referrer: "http://localhost/index.php"
+2021/01/14 16:02:09 [error] 11495#11495: *293 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'app\models\PostTag' not found in /var/www/html/testproject/models/PosttagSearch.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PosttagController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PosttagController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. spl_autoload_call() /var/www/html/testproject/controllers/PosttagController.php:38
+PHP message: PHP  10. yii\BaseYii::autoload() /var/www/html/testproject/controllers/PosttagController.php:38
+PHP message: PHP  11. include() /var/www/html/testproject/vendor/yiisoft/yii2/BaseYii.php:293" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php/posttag/index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost", referrer: "http://localhost/index.php"
+2021/01/14 16:02:12 [error] 11495#11495: *293 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'app\models\PostTag' not found in /var/www/html/testproject/models/PosttagSearch.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PosttagController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PosttagController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. spl_autoload_call() /var/www/html/testproject/controllers/PosttagController.php:38
+PHP message: PHP  10. yii\BaseYii::autoload() /var/www/html/testproject/controllers/PosttagController.php:38
+PHP message: PHP  11. include() /var/www/html/testproject/vendor/yiisoft/yii2/BaseYii.php:293" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php/posttag/index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost", referrer: "http://localhost/index.php"
+2021/01/14 16:02:28 [error] 11495#11495: *298 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'app\models\PostTag' not found in /var/www/html/testproject/models/PosttagSearch.php on line 12
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PosttagController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PosttagController->actionIndex() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. spl_autoload_call() /var/www/html/testproject/controllers/PosttagController.php:38
+PHP message: PHP  10. yii\BaseYii::autoload() /var/www/html/testproject/controllers/PosttagController.php:38
+PHP message: PHP  11. include() /var/www/html/testproject/vendor/yiisoft/yii2/BaseYii.php:293" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php/posttag/index HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost", referrer: "http://localhost/index.php"
+2021/01/14 16:35:58 [error] 11495#11495: *364 FastCGI sent in stderr: "PHP message: PHP Error:  Class 'Post' not found in /var/www/html/testproject/views/posttag/_form.php on line 18
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PosttagController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PosttagController->actionCreate() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\PosttagController->render() /var/www/html/testproject/controllers/PosttagController.php:75
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP  13. require() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:348
+PHP message: PHP  14. yii\web\View->render() /var/www/html/testproject/views/posttag/create.php:17
+PHP message: PHP  15. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  16. yii\web\View-
+2021/01/14 16:35:58 [error] 11495#11495: *364 FastCGI sent in stderr: "p:156
+PHP message: PHP  16. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP Error:  Class 'Post' not found in /var/www/html/testproject/views/posttag/_form.php on line 18
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PosttagController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PosttagController->actionCreate() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\PosttagController->render() /var/www/html/testproject/controllers/PosttagController.php:75
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php/posttag/create HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost", referrer:
+2021/01/14 16:42:32 [error] 11495#11495: *377 FastCGI sent in stderr: "PHP message: PHP Error:  Class 'ArrayHelper' not found in /var/www/html/testproject/views/posttag/_form.php on line 21
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PosttagController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PosttagController->actionCreate() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\PosttagController->render() /var/www/html/testproject/controllers/PosttagController.php:75
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP  13. require() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:348
+PHP message: PHP  14. yii\web\View->render() /var/www/html/testproject/views/posttag/create.php:17
+PHP message: PHP  15. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  16. yii\we
+2021/01/14 16:42:32 [error] 11495#11495: *377 FastCGI sent in stderr: "2/base/View.php:156
+PHP message: PHP  16. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP Error:  Class 'ArrayHelper' not found in /var/www/html/testproject/views/posttag/_form.php on line 21
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PosttagController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PosttagController->actionCreate() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\PosttagController->render() /var/www/html/testproject/controllers/PosttagController.php:75
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php/posttag/create HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "
+2021/01/14 16:52:22 [error] 11495#11495: *396 FastCGI sent in stderr: "PHP message: PHP Error:  Class 'ArrayHelper' not found in /var/www/html/testproject/views/posttag/_form.php on line 22
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PosttagController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PosttagController->actionCreate() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\PosttagController->render() /var/www/html/testproject/controllers/PosttagController.php:75
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP  13. require() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:348
+PHP message: PHP  14. yii\web\View->render() /var/www/html/testproject/views/posttag/create.php:17
+PHP message: PHP  15. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  16. yii\we
+2021/01/14 16:52:22 [error] 11495#11495: *396 FastCGI sent in stderr: "2/base/View.php:156
+PHP message: PHP  16. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP Error:  Class 'ArrayHelper' not found in /var/www/html/testproject/views/posttag/_form.php on line 22
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PosttagController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PosttagController->actionCreate() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\PosttagController->render() /var/www/html/testproject/controllers/PosttagController.php:75
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php/posttag/create HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "
+2021/01/14 16:54:01 [error] 11495#11495: *399 FastCGI sent in stderr: "PHP message: PHP Error:  Class 'Tag' not found in /var/www/html/testproject/views/posttag/_form.php on line 27
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PosttagController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PosttagController->actionCreate() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\PosttagController->render() /var/www/html/testproject/controllers/PosttagController.php:75
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP  13. require() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:348
+PHP message: PHP  14. yii\web\View->render() /var/www/html/testproject/views/posttag/create.php:17
+PHP message: PHP  15. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  16. yii\web\View->
+2021/01/14 16:54:01 [error] 11495#11495: *399 FastCGI sent in stderr: "156
+PHP message: PHP  16. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257
+PHP message: PHP Error:  Class 'Tag' not found in /var/www/html/testproject/views/posttag/_form.php on line 27
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/html/testproject/web/index.php:0
+PHP message: PHP   2. yii\web\Application->run() /var/www/html/testproject/web/index.php:12
+PHP message: PHP   3. yii\web\Application->handleRequest() /var/www/html/testproject/vendor/yiisoft/yii2/base/Application.php:392
+PHP message: PHP   4. yii\web\Application->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/web/Application.php:104
+PHP message: PHP   5. app\controllers\PosttagController->runAction() /var/www/html/testproject/vendor/yiisoft/yii2/base/Module.php:528
+PHP message: PHP   6. yii\base\InlineAction->runWithParams() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:181
+PHP message: PHP   7. call_user_func_array:{/var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57}() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   8. app\controllers\PosttagController->actionCreate() /var/www/html/testproject/vendor/yiisoft/yii2/base/InlineAction.php:57
+PHP message: PHP   9. app\controllers\PosttagController->render() /var/www/html/testproject/controllers/PosttagController.php:75
+PHP message: PHP  10. yii\web\View->render() /var/www/html/testproject/vendor/yiisoft/yii2/base/Controller.php:410
+PHP message: PHP  11. yii\web\View->renderFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:156
+PHP message: PHP  12. yii\web\View->renderPhpFile() /var/www/html/testproject/vendor/yiisoft/yii2/base/View.php:257" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /index.php/posttag/create HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.2-fpm.sock:", host: "localhost", referrer: "h

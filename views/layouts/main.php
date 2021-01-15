@@ -50,6 +50,7 @@ AppAsset::register($this);
             'class' => 'navbar-default navbar-fixed-top',
         ],
     ]);
+/*
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
@@ -78,6 +79,42 @@ AppAsset::register($this);
             )
         ],
     ]);
+*/
+    echo Nav::widget([
+        'options' => ['class' => 'navbar-nav navbar-right'],
+        'items' => [
+            ['label' => 'Home', 'url' => ['/site/index']],
+            ['label' => 'About', 'url' => ['/site/about']],
+            ['label' => 'Тестовый проект Kblog', 'url' => ['/kkblog/index'], 'items' => [
+                    ['label' => 'Kostscript', 'url' => ['/site/kostscript']],
+                    ['label' => 'Kostblog', 'url' => ['/site/kostblog']],
+                    ['label' => 'Kkblog', 'url' => ['/kkblog/index']],
+                    ['label' => 'Kkproc', 'url' => ['/kkblog/kkproc']],
+            ]],
+            ['label' => 'Contact', 'url' => ['/site/contact']],
+            ['label' => 'Country', 'url' => ['/country/index']],
+            ['label' => 'Тестовый проект POST', 'url' => ['users/index'], 'items' => [
+                    ['label' => 'Users', 'url' => ['/users/index']],
+                    ['label' => 'Category', 'url' => ['/category/index']],
+                    ['label' => 'Post', 'url' => ['/post/index']],
+                    ['label' => 'Tag', 'url' => ['/tag/index']],
+                    ['label' => 'PostTag', 'url' => ['/posttag/index']],
+            ]],
+            Yii::$app->user->isGuest ? (
+                ['label' => 'Login', 'url' => ['/site/login']]
+            ) : (
+                '<li>'
+                . Html::beginForm(['/site/logout'], 'post')
+                . Html::submitButton(
+                    'Logout (' . Yii::$app->user->identity->username . ')',
+                    ['class' => 'btn btn-link logout']
+                )
+                . Html::endForm()
+                . '</li>'
+            )
+        ],
+    ]);
+
     NavBar::end();
     ?>
 

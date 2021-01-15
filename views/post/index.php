@@ -1,7 +1,18 @@
 <?php
 
+
+/*            ['class' => 'yii\grid\ActionColumn'::className(),
+                'footer' => 'Кнопки',
+            ],*/
+
+/*            'author_id', */
+/*            'template' => '{delete}',*/
+/*                    return Html::a('<span class="glyphicon glyphicon-eye-open"></span>', $url, [*/
+
+
 use yii\helpers\Html;
 use yii\grid\GridView;
+/*use yii\grid\ActionColumn;*/
 
 /* @var $this yii\web\View */
 /* @var $searchModel app\models\PostSearch */
@@ -27,14 +38,45 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             'id',
-            'author_id',
+            'author.name_user',
             'category_id',
             'title',
             'body:ntext',
+            'category.title',
 
             ['class' => 'yii\grid\ActionColumn'],
+            [
+            'class' => 'yii\grid\ActionColumn'::className(),
+
+            'template' => '{details} {delete} {shopping}' ,
+
+            'buttons' => [
+                'details' => function ($url, $searchModel, $key) {
+                    return Html::a('<span class="glyphicon glyphicon-euro"></span>', $url, [
+                    'title' => 'Full Details',
+                    'data-pjax' => '0',
+                ]);
+            },
+            'delete' => function ($url, $searchModel, $key) {
+                return Html::a('<span class="glyphicon glyphicon-remove"></span>', $url, [
+                    'title' => Yii::t('yii', 'Delete'),
+                    'data-confirm' => 'Are you sure you want to delete?',
+                    'data-method' => 'post',
+                    'data-pjax' => '0',
+                    ]);
+                },
+            'shopping' => function ($url, $searchModel, $key) {
+                return Html::a('<span class="glyphicon glyphicon-shopping-cart"></span>', $url, [
+                    'title' => Yii::t('yii', 'Shopping'),
+                    'data-pjax' => '0',
+                    ]);
+                },
+            ], 
+        ],
         ],
     ]); ?>
 
 
 </div>
+
+

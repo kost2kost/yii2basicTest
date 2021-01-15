@@ -50,10 +50,12 @@ class Post extends \yii\db\ActiveRecord
     {
         return [
             'id' => Yii::t('app', 'ID'),
-            'author_id' => Yii::t('app', 'Author ID'),
+/*            'author_id' => Yii::t('app', 'Author ID'),*/
+            'users.name_user' => Yii::t('app', 'Name'),
             'category_id' => Yii::t('app', 'Category ID'),
             'title' => Yii::t('app', 'Title'),
             'body' => Yii::t('app', 'Body'),
+            'category.title' => Yii::t('app', 'Category Title'),
         ];
     }
 
@@ -82,9 +84,9 @@ class Post extends \yii\db\ActiveRecord
      *
      * @return \yii\db\ActiveQuery|PostTagQuery
      */
-    public function getPostTags()
+    public function getPosttags()
     {
-        return $this->hasMany(PostTag::className(), ['post_id' => 'id']);
+        return $this->hasMany(Posttag::className(), ['post_id' => 'id']);
     }
 
     /**

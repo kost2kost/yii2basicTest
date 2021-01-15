@@ -38,7 +38,7 @@ $this->params['breadcrumbs'][] = $this->title;
     </p>
 <?php
             echo "<p> echo Удалось подключиться </p>";
-        if(!$mysqli->query("CALL kkProcTest1(1)")){
+        if(!$mysqli->query("CALL kkProcTest1(2)")){
             echo "<p> Не удалось вызвать хранимую процедуру <p>";
         }
         else {

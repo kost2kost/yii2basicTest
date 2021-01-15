@@ -3,20 +3,16 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Post */
+/* @var $model app\models\Tag */
 
-/* $cat = $model->getCategory(); */
-/* $catRecord = $cat->one(); */
-/* echo $catRecord->title; */
-$this->title = Yii::t('app', 'Update Post: {name} {category}', [
+$this->title = Yii::t('app', 'Update Tag: {name}', [
     'name' => $model->title,
-    'category' => $model->getCategory()->one()->title,
 ]);
-$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Posts'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Tags'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->title, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = Yii::t('app', 'Update');
 ?>
-<div class="post-update">
+<div class="tag-update">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
