@@ -1,4 +1,5 @@
 <?php
+//Yii::setPathOfAlias('services', '/var/www/html/testproject/services/');
 
 $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';

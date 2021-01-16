@@ -1,13 +1,14 @@
 <?php
-
 namespace app\controllers;
 
 use Yii;
 use app\models\Posttag;
 use app\models\PosttagSearch;
+use app\services\CommonService;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+
 
 /**
  * PostTagController implements the CRUD actions for PostTag model.
@@ -70,9 +71,42 @@ class PosttagController extends Controller
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'post_id' => $model->post_id, 'tag_id' => $model->tag_id]);
         }
-
+/*
+        $paramsPost = yii\helpers\ArrayHelper::map(Post::find()->all(), 'id', 'title');
+        $params1 = ['prompt' => 'Выберите наименование статьи'];           
+        $paramsTags = yii\helpers\ArrayHelper::map(Tag::find()->all(), 'id', 'title');
+        $params2 = ['prompt' => 'Выберите тег' ];        
+*/
+        $paramsPost = CommonService::PostMap();
+        $params1 = CommonService::PostDropDownListPrompt();
+        $paramsTags = CommonService::TagMap();
+        $params2 = CommonService::TagDropDownListPrompt();
+        $paramPostLabel = CommonService::PostDropDownListLabel();
+        $paramTagLabel = CommonService::TagDropDownListLabel();
+/*
         return $this->render('create', [
             'model' => $model,
+
+            'params1' =>    $paramsPost,
+            'params3' =>    $paramsTags,
+            'params2' =>    $params1,
+            'params4' =>   $params2,
+            'params5' =>   $paramPostLabel,
+            'params6' =>   $paramTagLabel,
+
+        ]);
+*/
+        return $this->render('create', [
+            'model' => $model,
+            'params' =>  [
+                'params1' =>  $paramsPost,
+                'params3' =>    $paramsTags,
+                'params2' =>    $params1,
+                'params4' =>   $params2,
+                'params5' =>   $paramPostLabel,
+                'params6' =>   $paramTagLabel,
+            ],
+
         ]);
     }
 
@@ -87,14 +121,51 @@ class PosttagController extends Controller
     public function actionUpdate($post_id, $tag_id)
     {
         $model = $this->findModel($post_id, $tag_id);
-
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'post_id' => $model->post_id, 'tag_id' => $model->tag_id]);
         }
-
+        /*
+        $paramsPost = yii\helpers\ArrayHelper::map(Post::find()->all(), 'id', 'title');
+        $params1 = ['prompt' => 'Выберите наименование статьи'];           
+        $paramsTags = yii\helpers\ArrayHelper::map(Tag::find()->all(), 'id', 'title');
+        $params2 = ['prompt' => 'Выберите тег' ];
+        */
+        /*
+        $paramsPost = \services\CommonService::PostMap();
+        $params1 = \services\CommonService::PostDropDownListPrompt();
+        $paramsTags = \services\CommonService::TagMap();
+        $params2 = \services\CommonService::TagDropDownListPrompt();
+        */
+        $paramsPost = CommonService::PostMap();
+        $params1 = CommonService::PostDropDownListPrompt();
+        $paramsTags = CommonService::TagMap();
+        $params2 = CommonService::TagDropDownListPrompt();
+        $paramPostLabel = CommonService::PostDropDownListLabel();
+        $paramTagLabel = CommonService::TagDropDownListLabel();
+/*
         return $this->render('update', [
             'model' => $model,
+            'params1' =>    $paramsPost,
+            'params3' =>    $paramsTags,
+            'params2' =>    $params1,
+            'params4' =>   $params2,
+            'params5' =>   $paramPostLabel,
+            'params6' =>   $paramTagLabel,
+
         ]);
+*/
+        return $this->render('update', [
+            'model' => $model,
+
+            'params' =>  [
+                'params1' =>  $paramsPost,
+                'params3' =>    $paramsTags,
+                'params2' =>    $params1,
+                'params4' =>   $params2,
+                'params5' =>   $paramPostLabel,
+                'params6' =>   $paramTagLabel,
+            ],
+          ]);
     }
 
     /**
