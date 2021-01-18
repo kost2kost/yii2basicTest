@@ -28,8 +28,11 @@ $this->params['breadcrumbs'][] = $this->title;
 
 //            'post_id',
 //            'tag_id',
-            'post.title',
-            'tag.title',
+//            'post.title',
+//            'tag.title',
+//               'post.title'::'Статья',
+                ['label' => 'Статья', 'attribute' => 'post.title'],
+                ['label' => 'Тег', 'attribute' => 'tag.title'],        
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

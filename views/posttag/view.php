@@ -31,8 +31,9 @@ $this->params['breadcrumbs'][] = $this->title;
         'attributes' => [
 //            'post_id',
 //            'tag_id',
-            'post.title',
-            'tag.title',
+//               'post.title':'text':'Статья',
+                ['label' => 'Статья', 'attribute' => 'post.title', 'format' => 'text'],
+                ['label' => 'Тег', 'attribute' => 'tag.title'],        
         ],
     ]) ?>
 

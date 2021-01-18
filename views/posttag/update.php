@@ -1,6 +1,17 @@
 <?php
 
 use yii\helpers\Html;
+/*
+    <?= $this->render('_form', [
+        'model' => $model,
+        'mapPost' => $mapPost,
+        'mapTag' =>  $mapTag,
+        'viewPostTagPromptPost' => $viewPostTagPromptPost,
+        'viewPostTagPromptTag' =>  $viewPostTagPromptTag,
+        'viewPostTagLabelPost' =>  $viewPostTagLabelPost,
+        'viewPostTagLabelTag' =>  $viewPostTagLabelTag,
+    ]) ?>
+*/
 
 /* @var $this yii\web\View */
 /* @var $model app\models\PostTag */
@@ -15,10 +26,8 @@ $this->params['breadcrumbs'][] = Yii::t('app', 'Update');
 <div class="post-tag-update">
 
     <h1><?= Html::encode($this->title) ?></h1>
-
     <?= $this->render('_form', [
         'model' => $model,
-        'params' =>  $params,
-  ]) ?>
+    ]) ?>
 
 </div>

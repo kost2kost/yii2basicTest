@@ -4,7 +4,9 @@ namespace app\controllers;
 use Yii;
 use app\models\Posttag;
 use app\models\PosttagSearch;
-use app\services\CommonService;
+//use app\services\PosttagHelperService;
+use app\services\PostHelperService;
+use app\services\TagHelperService;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -77,12 +79,14 @@ class PosttagController extends Controller
         $paramsTags = yii\helpers\ArrayHelper::map(Tag::find()->all(), 'id', 'title');
         $params2 = ['prompt' => 'Выберите тег' ];        
 */
-        $paramsPost = CommonService::PostMap();
-        $params1 = CommonService::PostDropDownListPrompt();
-        $paramsTags = CommonService::TagMap();
-        $params2 = CommonService::TagDropDownListPrompt();
-        $paramPostLabel = CommonService::PostDropDownListLabel();
-        $paramTagLabel = CommonService::TagDropDownListLabel();
+/*
+        $paramsPost = PosttagHelperService::getPostMap();
+        $params1 = PosttagHelperService::getPostDropDownListPrompt();
+        $paramsTags = PosttagHelperService::getTagMap();
+        $params2 = PosttagHelperService::getTagDropDownListPrompt();
+        $paramPostLabel = PosttagHelperService::getPostDropDownListLabel();
+        $paramTagLabel = PosttagHelperService::getTagDropDownListLabel();
+*/
 /*
         return $this->render('create', [
             'model' => $model,
@@ -96,17 +100,42 @@ class PosttagController extends Controller
 
         ]);
 */
+/*
+        $paramsView = array(
+            'params1' =>  $paramsPost,
+            'params3' =>    $paramsTags,
+            'params2' =>    $params1,
+            'params4' =>   $params2,
+            'params5' =>   $paramPostLabel,
+            'params6' =>   $paramTagLabel,
+        );
         return $this->render('create', [
             'model' => $model,
-            'params' =>  [
-                'params1' =>  $paramsPost,
-                'params3' =>    $paramsTags,
-                'params2' =>    $params1,
-                'params4' =>   $params2,
-                'params5' =>   $paramPostLabel,
-                'params6' =>   $paramTagLabel,
-            ],
-
+            'paramsView' =>  $paramsView,
+        ]);
+*/
+        $model['paramsView'] =
+            [
+                'mapPost' => PostHelperService::getPostMap(),
+                'mapTag' =>  TagHelperService::getTagMap(),
+                'viewPostTagPromptPost' => PostHelperService::getPostDropDownListPrompt(),
+                'viewPostTagPromptTag' =>  TagHelperService::getTagDropDownListPrompt(),
+                'viewPostTagLabelPost' =>  PostHelperService::getPostDropDownListLabel(),
+                'viewPostTagLabelTag' =>  TagHelperService::getTagDropDownListLabel(),
+            ];
+/*
+        return $this->render('create', [
+            'model' => $model,
+            'mapPost' => PostHelperService::getPostMap(),
+            'mapTag' =>  TagHelperService::getTagMap(),
+            'viewPostTagPromptPost' => PostHelperService::getPostDropDownListPrompt(),
+            'viewPostTagPromptTag' =>  TagHelperService::getTagDropDownListPrompt(),
+            'viewPostTagLabelPost' =>  PostHelperService::getPostDropDownListLabel(),
+            'viewPostTagLabelTag' =>  TagHelperService::getTagDropDownListLabel(),
+        ]);
+*/
+        return $this->render('create', [
+            'model' => $model,
         ]);
     }
 
@@ -130,18 +159,14 @@ class PosttagController extends Controller
         $paramsTags = yii\helpers\ArrayHelper::map(Tag::find()->all(), 'id', 'title');
         $params2 = ['prompt' => 'Выберите тег' ];
         */
-        /*
-        $paramsPost = \services\CommonService::PostMap();
-        $params1 = \services\CommonService::PostDropDownListPrompt();
-        $paramsTags = \services\CommonService::TagMap();
-        $params2 = \services\CommonService::TagDropDownListPrompt();
-        */
+/*
         $paramsPost = CommonService::PostMap();
         $params1 = CommonService::PostDropDownListPrompt();
         $paramsTags = CommonService::TagMap();
         $params2 = CommonService::TagDropDownListPrompt();
         $paramPostLabel = CommonService::PostDropDownListLabel();
         $paramTagLabel = CommonService::TagDropDownListLabel();
+*/
 /*
         return $this->render('update', [
             'model' => $model,
@@ -154,18 +179,44 @@ class PosttagController extends Controller
 
         ]);
 */
+/*
+        $paramsView = array(
+            'params1' =>  $paramsPost,
+            'params3' =>    $paramsTags,
+            'params2' =>    $params1,
+            'params4' =>   $params2,
+            'params5' =>   $paramPostLabel,
+            'params6' =>   $paramTagLabel,
+        );
         return $this->render('update', [
             'model' => $model,
-
-            'params' =>  [
-                'params1' =>  $paramsPost,
-                'params3' =>    $paramsTags,
-                'params2' =>    $params1,
-                'params4' =>   $params2,
-                'params5' =>   $paramPostLabel,
-                'params6' =>   $paramTagLabel,
-            ],
+            'paramsView' =>  $paramsView,
           ]);
+*/
+
+        $model['paramsView'] =
+            [
+                'mapPost' => PostHelperService::getPostMap(),
+                'mapTag' =>  TagHelperService::getTagMap(),
+                'viewPostTagPromptPost' => PostHelperService::getPostDropDownListPrompt(),
+                'viewPostTagPromptTag' =>  TagHelperService::getTagDropDownListPrompt(),
+                'viewPostTagLabelPost' =>  PostHelperService::getPostDropDownListLabel(),
+                'viewPostTagLabelTag' =>  TagHelperService::getTagDropDownListLabel(),
+            ];
+        /*
+        return $this->render('update', [
+            'model' => $model,
+            'mapPost' => PostHelperService::getPostMap(),
+            'mapTag' =>  TagHelperService::getTagMap(),
+            'viewPostTagPromptPost' => PostHelperService::getPostDropDownListPrompt(),
+            'viewPostTagPromptTag' =>  TagHelperService::getTagDropDownListPrompt(),
+            'viewPostTagLabelPost' =>  PostHelperService::getPostDropDownListLabel(),
+            'viewPostTagLabelTag' =>  TagHelperService::getTagDropDownListLabel(),
+        ]);
+        */
+        return $this->render('update', [
+            'model' => $model,
+        ]);
     }
 
     /**
