@@ -29,17 +29,27 @@ use yii\widgets\ActiveForm;
 ?>
 
 <div class="post-tag-form">
+    <div class="row">
+        <?php $form = ActiveForm::begin(); ?>
+        <div class="col-md-6"> 
+        <?php echo $form->field($model, 'post_id')->dropDownList($model['paramsView']['mapPost'],  
+                $model['paramsView']['viewPostTagPromptPost'])->label($model['paramsView']['viewPostTagLabelPost'])    ?>
+        </div>
+        <div class="col-md-6"> 
+        <?php echo $form->field($model, 'tag_id')->dropDownList($model['paramsView']['mapTag'], 
+                $model['paramsView']['viewPostTagPromptTag'])->label($model['paramsView']['viewPostTagLabelTag'])    ?>
+        </div>
+  
+      <div class="col-md-12"> 
+  
+        <div class="form-group">
+            <?= Html::submitButton(Yii::t('app', 'Save'), ['class' => 'btn btn-success']) ?>
+        </div>
 
-    <?php $form = ActiveForm::begin(); ?>
-    <?php echo $form->field($model, 'post_id')->dropDownList($model['paramsView']['mapPost'], $model['paramsView']['viewPostTagPromptPost'])->label($model['paramsView']['viewPostTagLabelPost'])    ?>
-    <?php echo $form->field($model, 'tag_id')->dropDownList($model['paramsView']['mapTag'], $model['paramsView']['viewPostTagPromptTag'])->label($model['paramsView']['viewPostTagLabelTag'])    ?>
+      </div>
 
-
-
-    <div class="form-group">
-        <?= Html::submitButton(Yii::t('app', 'Save'), ['class' => 'btn btn-success']) ?>
-    </div>
-
-    <?php ActiveForm::end(); ?>
+        <?php ActiveForm::end(); ?>
+     </div>
 
 </div>
+
